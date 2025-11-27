@@ -1,0 +1,33 @@
+.contact {
+  background:
+    linear-gradient(
+      to right, 
+      rgba($primary-color, 0.9), 
+      rgba($primary-color, 0.3)
+      ),
+    url('../images/computerUser.jpg') center center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &_list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .social-icons{
+    position: initial;
+    margin-top: 2rem;
+  }
+}

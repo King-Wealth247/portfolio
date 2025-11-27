@@ -1,0 +1,104 @@
+.about{
+  padding-bottom: 2rem;
+
+  &_bio-image{
+    height: 50vh;
+    width: 100%;
+    background: 
+      linear-gradient(
+        to right,
+        rgba($primary-color, 0.8),
+        rgba($primary-color, 0.2)
+      ),
+      url('../images/on-desktop-resized.jpg') center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    p{
+      margin-bottom: 2rem;
+    }
+  }
+
+  .about_bio{
+    width: 80%;
+    text-align: center;
+
+    .text-secondary{
+      padding-bottom: 1rem;
+    }
+  }
+
+  .jobs{
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+
+    &_job{
+      background: lighten($primary-color, 10%);
+      padding: 0.5rem;
+      border-bottom: 5px solid $secondary-color;
+      margin-bottom: 1rem;
+
+      &_header{
+        background: $primary-color;
+        padding: 5px;
+        margin-bottom: 5px;
+      }
+
+      h2, h3{
+        margin: 0.5rem 0;
+      }
+      h6{
+        margin: 0.3rem 0;
+      }
+    }
+  }
+
+  .skills{
+    place-items: center;
+    place-content: center;
+    margin-top: 5rem;
+
+    table{
+      width: 60vw;
+      border: 3px solid $secondary-color;
+      text-align: center;
+
+      th{
+        background-color: $secondary-color;
+        color: $primary-color;
+        font-size: 2rem;
+        padding: 10px;
+      }
+
+      td{
+        height: 5rem;
+        padding: 15px;
+        border-bottom: 2px solid $secondary-color;
+        font-size: larger;
+      }
+
+      td:hover{
+        color: $secondary-color;
+        scale: 1.05;
+        border-bottom-width: 1rem; 
+        @include transition-ease;
+      }
+    }
+  }
+
+  .social-icons{
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer{
+    transform: 
+      rotate(270deg)
+      translate(3rem, 5rem);
+  }
+}
