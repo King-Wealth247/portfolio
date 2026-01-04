@@ -21,7 +21,7 @@
   border-bottom: 2px solid #fff;
 }
 .home_name--last {
-  color: #2f52ff;
+  color: #ff552f;
   font-weight: 700;
 }
 .home h2 {
@@ -115,7 +115,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav_item.active > a {
-  color: #2f52ff;
+  color: #ff552f;
 }
 .nav .menu-nav_link {
   display: inline-block;
@@ -126,7 +126,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav_link:hover {
-  color: #2f52ff;
+  color: #ff552f;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -177,7 +177,7 @@
 .about .jobs_job {
   background: rgb(64.5, 64.5, 64.5);
   padding: 0.5rem;
-  border-bottom: 5px solid #2f52ff;
+  border-bottom: 5px solid #ff552f;
   margin-bottom: 1rem;
 }
 .about .jobs_job_header {
@@ -198,11 +198,11 @@
 }
 .about .skills table {
   width: 60vw;
-  border: 3px solid #2f52ff;
+  border: 3px solid #ff552f;
   text-align: center;
 }
 .about .skills table th {
-  background-color: #2f52ff;
+  background-color: #ff552f;
   color: #272727;
   font-size: 2rem;
   padding: 10px;
@@ -210,11 +210,11 @@
 .about .skills table td {
   height: 5rem;
   padding: 15px;
-  border-bottom: 2px solid #2f52ff;
+  border-bottom: 2px solid #ff552f;
   font-size: larger;
 }
 .about .skills table td:hover {
-  color: #2f52ff;
+  color: #ff552f;
   scale: 1.05;
   border-bottom-width: 1rem;
   transition: all 0.5s ease-in-out;
@@ -253,7 +253,7 @@
 }
 .projects_item {
   position: relative;
-  border-bottom: 5px solid #2f52ff;
+  border-bottom: 5px solid #ff552f;
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 2rem;
@@ -280,7 +280,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #2f52ff;
+  background: #ff552f;
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -413,7 +413,7 @@ a {
 }
 
 .text-secondary {
-  color: #2f52ff;
+  color: #ff552f;
 }
 
 header {
@@ -437,7 +437,7 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #2f52ff;
+  color: #ff552f;
 }
 
 footer {
