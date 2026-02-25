@@ -102,7 +102,7 @@ I’m especially interested in:
 If you'd like to collaborate, connect, or just talk tech:
 
 * GitHub: https://github.com/King-Wealth247
-* Portfolio: https://github.com.io/King-Wealth247/portfolio/
+* Portfolio: https://King-Wealth247.github.io/portfolio/
 
 ---
 
