@@ -5,7 +5,7 @@
 }
 
 .home {
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/Toxedo.jpg") center center;
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/Toxedo.jpg") center center;
   background-size: cover;
   height: 100%;
   padding-top: 40vh;
@@ -21,7 +21,7 @@
   border-bottom: 2px solid #fff;
 }
 .home_name--last {
-  color: #ff552f;
+  color: #ff5202;
   font-weight: 700;
 }
 .home h2 {
@@ -115,7 +115,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav_item.active > a {
-  color: #ff552f;
+  color: #ff5202;
 }
 .nav .menu-nav_link {
   display: inline-block;
@@ -126,7 +126,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav_link:hover {
-  color: #ff552f;
+  color: #ff5202;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -151,7 +151,7 @@
 .about_bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("../images/on-desktop-resized.jpg") center center;
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("../images/on-desktop-resized.jpg") center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -177,7 +177,7 @@
 .about .jobs_job {
   background: rgb(64.5, 64.5, 64.5);
   padding: 0.5rem;
-  border-bottom: 5px solid #ff552f;
+  border-bottom: 5px solid #ff5202;
   margin-bottom: 1rem;
 }
 .about .jobs_job_header {
@@ -198,11 +198,11 @@
 }
 .about .skills table {
   width: 60vw;
-  border: 3px solid #ff552f;
+  border: 3px solid #ff5202;
   text-align: center;
 }
 .about .skills table th {
-  background-color: #ff552f;
+  background-color: #ff5202;
   color: #272727;
   font-size: 2rem;
   padding: 10px;
@@ -210,11 +210,11 @@
 .about .skills table td {
   height: 5rem;
   padding: 15px;
-  border-bottom: 2px solid #ff552f;
+  border-bottom: 2px solid #ff5202;
   font-size: larger;
 }
 .about .skills table td:hover {
-  color: #ff552f;
+  color: #ff5202;
   scale: 1.05;
   border-bottom-width: 1rem;
   transition: all 0.5s ease-in-out;
@@ -253,14 +253,15 @@
 }
 .projects_item {
   position: relative;
-  border-bottom: 5px solid #ff552f;
+  border-bottom: 5px solid #ff5202;
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 2rem;
   background: linear-gradient(to right, #272727, rgba(39, 39, 39, 0.5)), url("../images/computerUser.jpg") center center;
 }
 .projects_item_description {
-  color: #5a5a5a;
+  color: rgb(64.5, 64.5, 64.5);
+  text-shadow: 1px 1px 1px wheat;
   font-weight: bold;
   position: absolute;
   margin-top: 70%;
@@ -280,7 +281,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff552f;
+  background: #ff5202;
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -318,7 +319,7 @@
 }
 
 .contact {
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/computerUser.jpg") center center;
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/computerUser.jpg") center center;
   background-size: cover;
   height: 100%;
   padding-top: 40vh;
@@ -413,7 +414,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff552f;
+  color: #ff5202;
 }
 
 header {
@@ -437,7 +438,7 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #ff552f;
+  color: #ff5202;
 }
 
 footer {

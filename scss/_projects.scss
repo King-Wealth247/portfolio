@@ -48,7 +48,8 @@
       url('../images/computerUser.jpg') center center;
 
     &_description{
-      color: lighten($primary-color, 20%);
+      color: lighten($primary-color, 10%);
+      text-shadow: 1px 1px 1px wheat;
       font-weight: bold;
       position:absolute;
       margin-top: 70%;
