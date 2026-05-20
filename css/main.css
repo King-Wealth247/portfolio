@@ -5,7 +5,7 @@
 }
 
 .home {
-  background: linear-gradient(to top, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/Toxedo.jpg") center center;
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/church-consolidation-conf-1-ps.jpg") center center;
   background-size: cover;
   height: 100%;
   padding-top: 40vh;
@@ -155,7 +155,7 @@
 .about_bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to top, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("../images/on-desktop-resized.jpg") center center;
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("../images/crouch-selfie.jpg") center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -453,4 +453,4 @@ footer {
   padding: 1rem;
   text-align: right;
   color: #fff;
-}
+}/*# sourceMappingURL=main.css.map */
