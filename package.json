@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Welcome to my personal developer portfolio 👨‍💻\r This repository showcases my projects, skills, and journey as a passionate builder focused on creating practical and impactful digital solutions.",
+  "homepage": "https://github.com/King-Wealth247/portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/King-Wealth247/portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/King-Wealth247/portfolio.git"
+  },
+  "license": "ISC",
+  "author": "Kengni Wealth",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.99.0"
+  }
+}
