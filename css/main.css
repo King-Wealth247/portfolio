@@ -27,6 +27,10 @@
 .home h2 {
   margin-top: -10px;
 }
+.home h2 .aspiration-span {
+  font-size: small;
+  color: #ff5202;
+}
 .home-header {
   margin-top: 50px;
 }
@@ -449,4 +453,4 @@ footer {
   padding: 1rem;
   text-align: right;
   color: #fff;
-}/*# sourceMappingURL=main.css.map */
+}
