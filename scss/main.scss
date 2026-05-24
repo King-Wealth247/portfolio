@@ -32,6 +32,38 @@ header{
   z-index: 2;
   width: 100%;
   padding: 1rem;
+
+  .toggle-language{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    
+    &_icon{
+      font-size: 1rem;
+      margin-right: 0.5rem;
+      color: $secondary-color;
+      padding: 0.4rem;
+      cursor: pointer;
+      @include transition-ease;
+      
+      &:hover{
+        background-color: $secondary-color;
+        color: set-text-color($primary-color);
+        border: solid 2px set-text-color($primary-color);
+        border-right: none;
+        border-radius: 4px 0 0 4px;
+      }
+    }
+
+    &_lang{
+      font-size: 0.9rem;
+      color: set-text-color($primary-color);
+      margin-left: 0.3rem;
+    }
+  }
 }
 
 main{

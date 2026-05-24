@@ -427,6 +427,34 @@ header {
   width: 100%;
   padding: 1rem;
 }
+header .toggle-language {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+header .toggle-language_icon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  color: #ff5202;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+header .toggle-language_icon:hover {
+  background-color: #ff5202;
+  color: #fff;
+  border: solid 2px #fff;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+header .toggle-language_lang {
+  font-size: 0.9rem;
+  color: #fff;
+  margin-left: 0.3rem;
+}
 
 main {
   height: 100%;
@@ -453,4 +481,4 @@ footer {
   padding: 1rem;
   text-align: right;
   color: #fff;
-}/*# sourceMappingURL=main.css.map */
+}
