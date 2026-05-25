@@ -22,16 +22,16 @@
     <nav class="nav">
       <ul class="menu-nav">
         <li class="menu-nav_item">
-          <a href="index.html" class="menu-nav_link">Home</a>
+          <a href="index.html" class="menu-nav_link" data-lang="home">Home</a>
         </li>
         <li class="menu-nav_item">
-          <a href="about.html" class="menu-nav_link">About Me</a>
+          <a href="about.html" class="menu-nav_link" data-lang="about">About Me</a>
         </li>
         <li class="menu-nav_item active">
-          <a href="projects.html" class="menu-nav_link">My Projects</a>
+          <a href="projects.html" class="menu-nav_link" data-lang="projects">My Projects</a>
         </li>
         <li class="menu-nav_item">
-          <a href="contact.html" class="menu-nav_link">Contact Me</a>
+          <a href="contact.html" class="menu-nav_link" data-lang="contact">Contact Me</a>
         </li>
         
       </ul>
@@ -41,12 +41,12 @@
   <main>
     <section class="projects">
       <div class="projects_bio-image">
-        <h1 class="text-secondary">My Projects</h1>
+        <h1 class="text-secondary" data-lang="projects_title">My Projects</h1>
       </div>
 
       <div class="projects_items">
         <div class="projects_item">
-          <div class="projects_item_description">Event Management System Using HTML, CSS, & JavaScript</div>
+          <div class="projects_item_description" data-lang="project1_desc">Event Management System Using HTML, CSS, & JavaScript</div>
           <img src="images/computerUser.jpg" alt="Event Management System">
           <div class="projects_btns">
             <!--<a href="#!" class="projects_btn">
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="projects_item">
-          <div class="projects_item_description">Java Voting System</div>
+          <div class="projects_item_description" data-lang="project2_desc">Java Voting System</div>
           <img src="images/vote-balot-graphic.jpg" alt="Java Voting System">
           <div class="projects_btns">
             <!--<a href="#!" class="projects_btn">
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="projects_item">
-          <div class="projects_item_description">Copy of Amazone E-Shop, with JavaScript</div>
+          <div class="projects_item_description" data-lang="project3_desc">Copy of Amazone E-Shop, with JavaScript</div>
           <img src="images/html-tags.jpg" alt="Amazone Copy">
           <div class="projects_btns">
             <!--<a href="#!" class="projects_btn">
@@ -131,7 +131,7 @@
           </div>
         </div>
         <div class="projects_item">
-          <div class="projects_item_description">SDLC-Model-Advisor</div>
+          <div class="projects_item_description" data-lang="project4_desc">SDLC-Model-Advisor</div>
           <img src="images/sdlc-models.png" alt="SDLC-Model-Advisor">
           <div class="projects_btns">
             <a href="https://king-wealth247.github.io/SDLC-Model-Advisor/" class="projects_btn">
@@ -143,7 +143,7 @@
           </div>
         </div>
         <div class="projects_item">
-          <div class="projects_item_description">Internship Landing Page</div>
+          <div class="projects_item_description" data-lang="project5_desc">Internship Landing Page</div>
           <img src="images/internship-word-cloud-concept-grey-background-90730727.webp" alt="Landing Page">
           <div class="projects_btns">
             <a href="https://king-wealth247.github.io/landing-page-project/" class="projects_btn">
@@ -155,7 +155,7 @@
           </div>
         </div>
         <div class="projects_item">
-          <div class="projects_item_description">Campus timetable Management and Mapping system</div>
+          <div class="projects_item_description" data-lang="project6_desc">Campus timetable Management and Mapping system</div>
           <img src="images/camp-compass-logo.jpeg" alt="Camp-compass">
           <div class="projects_btns">
             <!--<a href="https://king-wealth247.github.io/camp-compass/" class="projects_btn">
@@ -200,6 +200,6 @@
   </main>
 
   <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js" type="module"></script>
 </body>
 </html>

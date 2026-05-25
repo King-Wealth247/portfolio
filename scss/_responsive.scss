@@ -46,8 +46,9 @@
     }
   }
 
-  .contact-list{
+  .contact_list{
     grid-template-columns: repeat(2, 1fr);
+    font-size: 1.5rem;
   }
 }
 
@@ -59,8 +60,9 @@
     }
   }
   
-  .contact-list{
+  .contact_list{
     grid-template-columns: repeat(3, 1fr);
+    font-size: 1.8rem;
   }
 }
 

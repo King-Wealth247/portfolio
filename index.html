@@ -22,16 +22,16 @@
     <nav class="nav">
       <ul class="menu-nav">
         <li class="menu-nav_item active">
-          <a href="index.html" class="menu-nav_link">Home</a>
+          <a href="index.html" class="menu-nav_link" data-lang="home">Home</a>
         </li>
         <li class="menu-nav_item">
-          <a href="about.html" class="menu-nav_link">About Me</a>
+          <a href="about.html" class="menu-nav_link" data-lang="about">About Me</a>
         </li>
         <li class="menu-nav_item">
-          <a href="projects.html" class="menu-nav_link">My Projects</a>
+          <a href="projects.html" class="menu-nav_link" data-lang="projects">My Projects</a>
         </li>
         <li class="menu-nav_item">
-          <a href="contact.html" class="menu-nav_link">Contact Me</a>
+          <a href="contact.html" class="menu-nav_link" data-lang="contact">Contact Me</a>
         </li>
         
       </ul>
@@ -40,14 +40,13 @@
 
   <main>
     <section class="home">
-      <h2>HI! My Name Is</h2>
+      <h2 data-lang="greeting"></h2>
       <h1 class="home_name">
         KENGNI MONAME <span class="home_name--last">Holy Wealth</span>
       </h1>
-      <h2>
-        Web Developer, Designer, And Programmer
+      <h2 data-lang="qualities">
         <br>
-        <span class="aspiration-span">Aspiring Machine Learning Engineer</span>
+        <span class="aspiration-span"></span>
       </h2>
 
       <div class="social-icons">
@@ -70,6 +69,6 @@
   </main>
 
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></script>-->
-  <script src="js/main.js"></script>
+  <script src="js/main.js" type="module"></script>
 </body>
 </html>
