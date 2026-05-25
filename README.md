@@ -1,118 +1,73 @@
 # King Wealth — Developer Portfolio
 
-Welcome to my personal developer portfolio 👨‍💻
-This repository showcases my projects, skills, and journey as a passionate builder focused on creating practical and impactful digital solutions.
+A responsive personal portfolio website built with HTML, SCSS, and JavaScript.
+This repository includes a multi-page site with a homepage, about page, projects page, contact page, and a Gulp-based SCSS build workflow.
 
 ---
 
-## About Me
+## Project Overview
 
-Hi, I’m **King Wealth**, a developer passionate about building systems that solve real-world problems.
-I enjoy working on full-stack applications, user-focused interfaces, and innovative solutions that combine creativity with functionality.
+This portfolio site includes:
 
-I believe in:
-
-* Writing clean, maintainable code
-* Building solutions that scale
-* Continuous learning and improvement
+* `index.html` — homepage with welcome text, language toggle, and navigation
+* `about.html` — biography, education, internship experience, and skills section
+* `projects.html` — curated project showcase with GitHub links and live preview links
+* `contact.html` — contact section for visitors
+* `scss/` — Sass source files for styling
+* `css/main.css` — compiled stylesheet generated from Sass
+* `js/main.js` and `js/translation.js` — client-side interactions and language toggle support
 
 ---
 
-## Tech Stack
-
-Here are some of the technologies I work with:
-
-**Frontend**
+## Technologies
 
 * HTML5
-* CSS3 / SCSS
-* JavaScript
-
-**Tools & Platforms**
-
-* Git & GitHub
-* Figma (UI/UX Design)
-* VS Code
-
-**Currently Exploring**
-
-* Full-stack architectures
-* System design
-* Campus navigation systems
+* SCSS / CSS
+* JavaScript (module-based)
+* Gulp 5 for build automation
 
 ---
 
-## Featured Projects
+## Local Setup
 
-### Camp-Compass (Campus Timetable & Navigation System)
+1. Clone the repository:
 
-A smart campus system designed to help students navigate university environments efficiently.
+```bash
+git clone https://github.com/King-Wealth247/portfolio.git
+cd portfolio
+```
 
-**Key Features**
+2. Install dependencies:
 
-* Campus mapping and navigation
-* Building and classroom discovery
-* Scalable system architecture
-* Designed with real student workflows in mind
+```bash
+npm install
+```
 
----
+3. Build styles and start the watch task:
 
-### Neon Calculator
+```bash
+npx gulp
+```
 
-A visually engaging calculator built with modern UI styling and interactive design principles.
-
-**Highlights**
-
-* Responsive design
-* Neon UI aesthetics
-* Clean JavaScript logic
+This compiles `scss/*.scss` into `css/main.css` and watches the Sass files for changes.
 
 ---
 
-### The Guild
+## Development Notes
 
-A creative web experience designed to demonstrate layout structure, styling, and deployment workflows.
-
-**Highlights**
-
-* Live preview deployment
-* GitHub Pages integration
-* Structured project organization
+* The main Sass entry is `scss/main.scss`.
+* The `gulpfile.js` compiles all files inside `scss/` and outputs compiled CSS to `css/`.
+* The site uses Font Awesome for icons and supports a language toggle in the header.
 
 ---
 
-## Goals
+## Repository Links
 
-My goal is to grow into a highly skilled software engineer capable of building:
-
-* Intelligent platforms
-* Scalable systems
-* Tools that empower people
-
-I’m especially interested in:
-
-* System architecture
-* Developer tools
-* Educational technology
+* GitHub: https://github.com/King-Wealth247/portfolio
+* Live portfolio deployment: https://King-Wealth247.github.io/portfolio/
 
 ---
 
+## Contact
 
-## Connect With Me
-
-If you'd like to collaborate, connect, or just talk tech:
-
-* GitHub: https://github.com/King-Wealth247
-* Portfolio: https://King-Wealth247.github.io/portfolio/
-
----
-
-## Support
-
-If you like my work, consider:
-
-* Starring the repository 
-* Sharing feedback
-* Connecting with me
-
-Thanks for visiting my portfolio 🚀
+If you'd like to collaborate or provide feedback, feel free to connect on GitHub or LinkedIn.
