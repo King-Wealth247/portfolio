@@ -9,7 +9,6 @@ const navItems = document.querySelectorAll('.menu-nav_item');
 const toggleLangIcon = document.querySelector('.toggle-language_icon');
 const toggleLangText = document.querySelector('.toggle-language_lang');
 
-translatePage('en');
 let showMenu = false;
 
 menuButton.addEventListener('click', () => {
@@ -31,12 +30,14 @@ menuButton.addEventListener('click', () => {
 });
 
 toggleLangIcon.addEventListener('click', () => {
-  if(toggleLangText.textContent === 'ENG'){
+  if(toggleLangText.textContent === 'EN'){
     toggleLangText.textContent = 'FR';
     translatePage('fr');
+    saveLanguage('fr');
   } else {
-    toggleLangText.textContent = 'ENG';
+    toggleLangText.textContent = 'EN';
     translatePage('en');
+    saveLanguage('en');
   }
 });
 
@@ -48,3 +49,14 @@ function translatePage(lang) {
     element.innerHTML = translation[lang][key] || element.innerHTML;
   });
 }
+
+function saveLanguage(lang) {
+  localStorage.setItem('language', lang);
+}
+
+// Load saved language on page load
+document.addEventListener('DOMContentLoaded', () => {
+  const savedLanguage = localStorage.getItem('language') || 'en';
+  translatePage(savedLanguage);
+  toggleLangText.textContent = savedLanguage.toUpperCase();
+});
