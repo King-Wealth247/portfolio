@@ -340,11 +340,11 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .contact .social-icons {
-  position: initial;
-  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -383,16 +383,18 @@
   .projects .text-secondary {
     font-size: 3rem;
   }
-  .contact-list {
+  .contact_list {
     grid-template-columns: repeat(2, 1fr);
+    font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .projects_items {
     grid-template-columns: repeat(3, 1fr);
   }
-  .contact-list {
+  .contact_list {
     grid-template-columns: repeat(3, 1fr);
+    font-size: 1.8rem;
   }
 }
 @media screen and (min-width: 1600px) {
