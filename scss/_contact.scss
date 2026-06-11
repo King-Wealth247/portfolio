@@ -54,8 +54,9 @@
     display: flex;
     gap: 1rem;
     flex-direction: column;
-
     border-radius: 20px;
+    @include transition-ease;
+    
     &:hover{
       background-color: rgba($secondary-color, 0.3);
       border: solid 1px $secondary-color;
@@ -80,6 +81,7 @@
       font-size: 1rem;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      @include transition-ease;
     }
 
     & button:nth-of-type(1){
