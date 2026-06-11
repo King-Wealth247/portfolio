@@ -35,11 +35,15 @@ export const translation = {
 
 
         //Contact Page
+<<<<<<< HEAD
         contact_me: "Contact Me",
         chat: "Send me a message",
         chat_description: "Feel free to reach out to me through any of the channels above! Or send me an email directly via the contact form below.",
         send_message: "Send Message",
         clear: "Clear"
+=======
+        contact_me: "Contact Me"
+>>>>>>> 38bcfe171937d555fd39f1aeb93cc1d195d04251
 
 
     },
@@ -79,10 +83,14 @@ export const translation = {
 
 
         //Contact Page
+<<<<<<< HEAD
         contact_me: "Contactez-moi",
         chat: "Envoyez-moi un message",
         chat_description: "N'hésitez pas à me contacter par l'un des canaux ci-dessus ! Ou envoyez-moi un email directement via le formulaire de contact ci-dessous.",
         send_message: "Envoyer le message",
         clear: "Effacer"
+=======
+        contact_me: "Contactez-moi"
+>>>>>>> 38bcfe171937d555fd39f1aeb93cc1d195d04251
     }
 };
