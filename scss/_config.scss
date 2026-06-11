@@ -19,6 +19,48 @@ $secondary-color: #ff5202;
   }
 }
 
+//Glass effect mixin
+@mixin glass-effect($color, $opacity: 0.15){
+  background-color: rgba($color, $opacity);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba($color, $opacity * 1.5);
+  border-top: 1px solid rgba($color, $opacity * 3);
+  border-radius: 20px;
+}
+
+//Glass glow effect mixin
+@mixin glass-glow-effect($color){
+  &::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+                90deg,
+                transparent,
+                rgba($color, 0.5),
+                transparent
+            );
+    border-radius: 20px;
+
+    transform: skewX(-20deg);
+    animation: glowMove 5s linear infinite;
+  }
+
+  @keyframes glowMove {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+}
+
 @mixin media-md{
   @media screen and (min-width: 768px){
     @content;

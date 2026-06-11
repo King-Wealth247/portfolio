@@ -35,7 +35,11 @@ export const translation = {
 
 
         //Contact Page
-        contact_me: "Contact Me"
+        contact_me: "Contact Me",
+        chat: "Send me a message",
+        chat_description: "Feel free to reach out to me through any of the channels above! Or send me an email directly via the contact form below.",
+        send_message: "Send Message",
+        clear: "Clear"
 
 
     },
@@ -75,6 +79,10 @@ export const translation = {
 
 
         //Contact Page
-        contact_me: "Contactez-moi"
+        contact_me: "Contactez-moi",
+        chat: "Envoyez-moi un message",
+        chat_description: "N'hésitez pas à me contacter par l'un des canaux ci-dessus ! Ou envoyez-moi un email directement via le formulaire de contact ci-dessous.",
+        send_message: "Envoyer le message",
+        clear: "Effacer"
     }
 };
