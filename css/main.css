@@ -155,8 +155,7 @@
 .about_bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to top, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("../images/crouch-selfie.jpg") center center;
-  background-size: cover;
+  background: linear-gradient(to top, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.2)), url("../images/crouch-selfie.jpg") center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,32 +167,207 @@
 .about .about_bio {
   width: 80%;
   text-align: center;
+  line-height: 1.5;
 }
 .about .about_bio .text-secondary {
   padding-bottom: 1rem;
 }
-.about .jobs {
+.about .about_bio h2 {
+  font-size: 5rem;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 2rem;
+}
+.about .journey {
   width: 60vw;
   margin: 2rem auto 0 auto;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+  overflow: visible;
 }
-.about .jobs_job {
+.about .journey .journey_item {
+  border-bottom: 5px solid #ff5202;
+  background: rgb(64.5, 64.5, 64.5);
+  padding: 1rem;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.about .journey .journey_item::before {
+  content: "";
+  position: absolute;
+  left: -2.45rem;
+  top: 20px;
+  width: 15px;
+  height: 15px;
+  background: #ff5202;
+  border-radius: 50%;
+}
+.about .journey .journey_item:hover {
+  transform: translateX(10px);
+  background: rgb(51.75, 51.75, 51.75);
+}
+.about .journey-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.about .journey-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  border-left: 3px solid #ff5202;
+  padding-left: 2rem;
+}
+.about .journey_item {
   background: rgb(64.5, 64.5, 64.5);
   padding: 0.5rem;
   border-bottom: 5px solid #ff5202;
   margin-bottom: 1rem;
+  overflow: visible;
+  transition: all 0.5s ease-in-out;
 }
-.about .jobs_job_header {
+.about .journey_item_header {
   background: #272727;
   padding: 5px;
   margin-bottom: 5px;
 }
-.about .jobs_job h2, .about .jobs_job h3 {
+.about .journey_item::before {
+  content: "";
+  position: absolute;
+  left: calc(-2rem - 9px);
+  top: 25px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #272727;
+  background: #ff5202;
+  border-radius: 50%;
+}
+.about .journey_item:hover {
+  transform: translateX(10px);
+  background: rgb(51.75, 51.75, 51.75);
+}
+.about .journey_item h2, .about .journey_item h3 {
   margin: 0.5rem 0;
 }
-.about .jobs_job h6 {
+.about .journey_item h6 {
   margin: 0.3rem 0;
+}
+.about .journey_item p {
+  line-height: 1.5;
+}
+.about .tech-stack {
+  padding: 4rem 0;
+  background-color: rgba(13.5, 13.5, 13.5, 0.8);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgb(13.5, 13.5, 13.5);
+  border-top: 1px solid rgb(13.5, 13.5, 13.5);
+  border-radius: 20px;
+}
+.about .tech-stack::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 82, 2, 0.5), transparent);
+  border-radius: 20px;
+  transform: skewX(-20deg);
+  animation: glowMove 5s linear infinite;
+}
+@keyframes glowMove {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.about .tech-stack {
+  border-radius: 0px;
+}
+.about .tech-stack .carousel-container {
+  overflow: hidden;
+  padding: 2rem 0;
+  width: 100%;
+  position: relative;
+}
+.about .tech-stack .carousel-track {
+  display: flex;
+  width: 2500px;
+  animation: scroll 20s linear infinite;
+}
+.about .tech-stack .carousel-track:hover {
+  animation-play-state: paused;
+}
+.about .tech-stack .tech-card {
+  width: 200px;
+  background: #272727;
+  margin: 0 20px;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid rgba(255, 82, 2, 0.3);
+  transition: all 0.5s ease-in-out;
+}
+.about .tech-stack .tech-card i {
+  font-size: 3rem;
+  color: #ff5202;
+  margin-bottom: 1rem;
+}
+.about .tech-stack .tech-card span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.about .tech-stack .tech-card p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.about .tech-stack .tech-card:hover {
+  border-color: #ff5202;
+  transform: translateY(-10px);
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1250px);
+  }
+}
+.about .skills-matrix {
+  padding: 5rem 2rem;
+}
+.about .skills-matrix table {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 3px solid #ff5202;
+}
+.about .skills-matrix table th {
+  background: #ff5202;
+  padding: 1rem;
+  color: #272727;
+}
+.about .skills-matrix table td {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 82, 2, 0.2);
+}
+.about .skills-matrix table td:first-child {
+  font-weight: bold;
+  width: 40%;
+}
+.about .skills-matrix .progress-bar {
+  background: #444;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.about .skills-matrix .progress-bar .progress {
+  background: #ff5202;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
 }
 .about .skills {
   place-items: center;
@@ -208,7 +382,7 @@
 .about .skills table th {
   background-color: #ff5202;
   color: #272727;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 10px;
 }
 .about .skills table td {
@@ -216,6 +390,7 @@
   padding: 15px;
   border-bottom: 2px solid #ff5202;
   font-size: larger;
+  line-height: 1.5;
 }
 .about .skills table td:hover {
   color: #ff5202;
