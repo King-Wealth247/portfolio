@@ -358,6 +358,22 @@
   font-weight: bold;
   width: 40%;
 }
+.about .skills-matrix table td:last-child {
+  text-align: right;
+}
+.about .skills-matrix table .btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: #ff5202;
+  color: #272727;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+.about .skills-matrix table .btn:hover {
+  background: rgb(255, 134.3102766798, 78.5);
+}
 .about .skills-matrix .progress-bar {
   background: #444;
   height: 10px;
@@ -756,3 +772,5 @@ footer {
   text-align: right;
   color: #fff;
 }
+
+/*# sourceMappingURL=main.css.map */
