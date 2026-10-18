@@ -35,7 +35,7 @@ export const translation = {
 
         //Projects Page
         projects_title: "My Projects",
-        project1_desc: "Event Management System Using HTML, CSS, & JavaScript",
+        project1_desc: "Automated DevSecOps Security Gate",
         project2_desc: "Java Voting System",
         project3_desc: "Copy of Amazone E-Shop, with JavaScript",
         project4_desc: "SDLC-Model-Advisor",
@@ -90,7 +90,7 @@ export const translation = {
 
         //Projects Page
         projects_title: "Mes Projets",
-        project1_desc: "Système de gestion d'événements utilisant HTML, CSS et JavaScript",
+        project1_desc: "Porte de Sécurité DevSecOps Automatisée",
         project2_desc: "Système de vote en Java",
         project3_desc: "Copie du magasin E-Shop d'Amazon, avec JavaScript",
         project4_desc: "Conseiller de modèles de cycle de vie du développement logiciel",

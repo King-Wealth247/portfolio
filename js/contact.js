@@ -21,7 +21,7 @@ contactForm.addEventListener('submit', (event) => {
     from_name: nameInput.value,
     from_email: emailInput.value,
     message: messageInput.value,
-    to_email: 'wealthk91@gmail.com',
+    to_email: 'kengniwealth247@gmail.com',
     email_title: 'Message via Portfolio📧',
   };
 
